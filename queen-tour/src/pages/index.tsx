@@ -1,9 +1,14 @@
-import styles from '../styles/global.module.scss'
+import Head from 'next/head'
 
 export default function Home() {
   return (
-    <h1 className={styles.title}>
-      Hello World!
-    </h1>
+    <>
+      <Head>
+        <title>Início | Queen Tour</title>
+      </Head>
+      <h1>
+        Hello World!
+      </h1>
+    </>
   )
 }
